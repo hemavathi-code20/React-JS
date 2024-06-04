@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  background-color: beige;
 }
 
 .app__navbar-logo {
@@ -12,10 +13,11 @@
 }
 
 .app__navbar-logo img {
-  width: 200px;
+  margin-left: 5%;
+  width: 250px;
 }
 .app__navbar-logo img:hover {
-  width: 210px;
+  width: 270px;
   cursor: pointer;
 }
 
@@ -25,16 +27,18 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  margin-left: 13%;
 }
 
 .app__navbar-links li {
   margin: 0 1rem;
   cursor: pointer;
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
 }
 
 .app__navbar-links li:hover {
-  color: green;
+  color: olivedrab;
   font-weight: bolder;
   font-size: 17px;
 }
@@ -50,17 +54,18 @@
   text-decoration: none;
   transition: 0.2s ease;
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
 }
 
 .app__navbar-signin a:hover {
   font-weight: bolder;
-  color: green;
+  color: olivedrab;
 }
 
 .app__navbar-signin div {
-  width: 2px;
+  width: 3px;
   height: 25px;
-  background: var(--color-accent3);
+  background: olive;
 }
 
 .app__navbar-smallscreen {

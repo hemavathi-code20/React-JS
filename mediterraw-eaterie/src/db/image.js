@@ -10,7 +10,7 @@ import logo from "../assets/logo.png";
 import Menu from "../assets/Menu.png";
 import overlaybg from "../assets/overlaybg.png";
 import spoon from "../assets/spoon.svg";
-import welcome from "../assets/welcome.jpg";
+import welcome from "../assets/welcome.png";
 import findus from "../assets/F.jpg";
 import laurels from "../assets/L.png";
 import award01 from "../assets/A1.png";

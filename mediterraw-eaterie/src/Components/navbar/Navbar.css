@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   background-color: beige;
 }
 
@@ -27,7 +26,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-left: 13%;
+  margin-left: 25%;
 }
 
 .app__navbar-links li {
@@ -35,6 +34,8 @@
   cursor: pointer;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
+  font-weight: 800;
+  color: orangered;
 }
 
 .app__navbar-links li:hover {
@@ -55,6 +56,8 @@
   transition: 0.2s ease;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
+  font-weight: 800;
+  color: orangered;
 }
 
 .app__navbar-signin a:hover {

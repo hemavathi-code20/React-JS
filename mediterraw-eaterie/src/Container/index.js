@@ -1,21 +1,17 @@
-import About from "./About/about";
-import Chef from "./Chef/chef";
-import Find from "./Find/find";
-import Footer from "./Footer/footer";
-import PhotoGallery from "./PhotoGallery/gallery";
-import Header from "./Header/header";
-import Home from "./Home/home";
-import Laurels from "./Laurels/laurels";
-import SpecialMenu from "./Specialmenu/menu";
+import Chef from './Chef/Chef';
+import Find from './Find/Find';
+import Footer from './Footer/Footer';
+import Gallery from './Gallery/Gallery';
+import Header from './Header/Header';
+import Intro from './Intro/Intro';
+import SpecialMenu from './Menu/SpecialMenu';
 
 export {
-  About,
   Chef,
   Find,
   Footer,
-  PhotoGallery,
+  Gallery,
   Header,
-  Home,
-  Laurels,
+  Intro,
   SpecialMenu,
 };

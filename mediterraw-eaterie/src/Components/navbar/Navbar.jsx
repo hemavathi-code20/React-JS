@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BiFoodTag } from "react-icons/bi";
-import images from "../../db/image";
+import images from "../../db/images";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__bg app__navbar">
       <div className="app__navbar-logo">
         <img src={images.Medit} alt="Medit" />
       </div>
@@ -19,21 +19,18 @@ const Navbar = () => {
           <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#awards">Awards</a>
+          <a href="#chef">Chef</a>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <a href="#meal">About</a>
         </li>
         <li className="p__opensans">
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-signin">
-        <a href="#signin" className="p__opensans">
-          Sign in / Register
-        </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a href="#footer" className="p__opensans">
           Book Table
         </a>
       </div>
@@ -45,7 +42,7 @@ const Navbar = () => {
         />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <BiFoodTag 
+            <BiFoodTag
               fontSize={27}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
@@ -58,10 +55,10 @@ const Navbar = () => {
                 <a href="#menu">Menu</a>
               </li>
               <li className="p__opensans">
-                <a href="#awards">Awards</a>
+                <a href="#chef">Chef</a>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <a href="#meal">About</a>
               </li>
               <li className="p__opensans">
                 <a href="#contact">Contact</a>

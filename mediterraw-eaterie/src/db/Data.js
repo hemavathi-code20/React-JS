@@ -1,82 +1,73 @@
-import image from './image';
+import images from './images';
 
-const wines = [
+const coastline = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Paella Valenciana',
+    price: '₹156',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Linguine alle Vongole',
+    price: '₹256',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Greek-Style Grilled Octopus',
+    price: '₹556',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Moroccan Fish Tagine',
+    price: '₹156',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Turkish Seafood Pilaf',
+    price: '₹556',
+  },
+  {
+    title: 'French Bouillabaisse',
+    price: '₹356',
+  },
+  {
+    title: 'Portuguese Grilled Sardines',
+    price: '₹856',
   },
 ];
 
-const cocktails = [
+const mezze = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Hummus',
+    price: '₹856',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Baba Ganoush',
+    price: '₹156',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Tabbouleh',
+    price: '₹756',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Dolmas',
+    price: '₹356',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-];
-
-const awards = [
-  {
-    imgUrl: image.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Labneh',
+    price: '₹256',
   },
   {
-    imgUrl: image.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Tzatziki',
+    price: '₹556',
   },
   {
-    imgUrl: image.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Falafel',
+    price: '₹656',
   },
   {
-    imgUrl: image.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Muhammara',
+    price: '₹356',
+  },
+  {
+    title: 'Saganaki',
+    price: '₹256',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { coastline, mezze };
